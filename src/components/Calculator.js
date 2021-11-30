@@ -4,6 +4,7 @@ class Calculator extends React.Component {
 
   render() {
     return (
+        
         <section >
         <div className="container">
             <div className="display">
