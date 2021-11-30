@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './Index.css';
+import './index.css';
 import App from './App.js';
 
 ReactDOM.render(
