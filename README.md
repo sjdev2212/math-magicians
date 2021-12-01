@@ -8,7 +8,7 @@ In this project I will create a Single Page Application using react.
 
 
 # Screenshot
-![](./src/img/screenshot.png") 
+![](/img/screenshot.png") 
 
 
 
