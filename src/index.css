@@ -14,6 +14,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(171, 86, 159, 1) 29%, rgba(0, 212, 255, 1) 100%);
 }
 
 .container {
@@ -64,6 +66,11 @@ section {
   justify-content: center;
   font-size: 15px;
   cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(83, 207, 76, 1) 100%);
 }
 
 .operation {
