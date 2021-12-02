@@ -1,18 +1,14 @@
-/* eslint-disable no-console */
 import React from 'react';
 
 import Buttons from './Buttons';
 
-class Calculator extends React.PureComponent {
-  render() {
-    return (
+export default function Calculator() {
+  return (
 
-      <section>
+    <section>
 
-        <Buttons />
+      <Buttons />
 
-      </section>
-    );
-  }
+    </section>
+  );
 }
-export default Calculator;
