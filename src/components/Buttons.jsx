@@ -1,10 +1,11 @@
+
 import React, { useState } from 'react';
 import calculate from './logic/calculate';
 
 const start = {
   total: '0',
 };
-export default function Buttons() {
+const Buttons = () => {
   const [obj, setObj] = useState(start);
 
   const pressedButton = (obj, btn) => {
@@ -163,4 +164,5 @@ export default function Buttons() {
       </div>
     </section>
   );
-}
+};
+export default Buttons;
