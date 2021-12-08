@@ -1,9 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-
-import Buttons from './Buttons';
-import '@testing-library/jest-dom/extend-expect';
 import { fireEvent, render } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
+import Buttons from './Buttons';
 
 const handleClick = jest.fn();
 
