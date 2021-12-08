@@ -1,4 +1,4 @@
-
+/* eslint-disable linebreak-style */
 import React, { useState } from 'react';
 import calculate from './logic/calculate';
 
@@ -17,7 +17,7 @@ const Buttons = () => {
   };
 
   return (
-    <section>
+    <section className="calc">
       <div className="container">
         <div className="display">
           <p className="display-2">

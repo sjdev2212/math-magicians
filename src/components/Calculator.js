@@ -4,7 +4,8 @@ import Buttons from './Buttons';
 
 const Calculator = () => (
 
-  <section>
+  <section className="calculator">
+    <h3 className="calc-title">Lets do some math</h3>
 
     <Buttons />
 
