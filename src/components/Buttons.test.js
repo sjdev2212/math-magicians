@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import React from 'react';
 import renderer from 'react-test-renderer';
 import Buttons from './Buttons';
