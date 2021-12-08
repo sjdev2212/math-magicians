@@ -1,11 +1,11 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
-import { render } from '@testing-library/react';
-
+import renderer from 'react-test-renderer';
 import Calculator from './Calculator';
 
 describe('Calculator', () => {
-  test('renders App component', () => {
-    render(<Calculator />);
+  test('renders Calc component', () => {
+    const tree = renderer.create(<Calculator />).toJSON();
+    expect(tree).toMatchSnapshot();
   });
 });

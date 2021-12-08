@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator renders Calc component 1`] = `
+<section
+  className="calculator"
+>
+  <h3
+    className="calc-title"
+  >
+    Lets do some math
+  </h3>
+  <section
+    className="calc"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="display"
+      >
+        <p
+          className="display-2"
+        >
+          0
+        </p>
+      </div>
+      <div
+        className="all-buttons"
+      >
+        <button
+          className="btn all-clear"
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="btn last-clear"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="btn "
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="btn operation"
+          onClick={[Function]}
+          type="button"
+        >
+          /
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="btn operation"
+          onClick={[Function]}
+          type="button"
+        >
+          X
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="btn operation"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="btn operation"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+        <button
+          className="btn number zero"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="btn equal operation"
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </section>
+</section>
+`;
+
+exports[`Quotes renders quote component 1`] = `
+<section>
+  <p
+    className="quotes"
+  >
+    Pure mathematics is, in its way, the poetry of logical ideas. — Albert Einstein, German theoretical physicist
+  </p>
+</section>
+`;
