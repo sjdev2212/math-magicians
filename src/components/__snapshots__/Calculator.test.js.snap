@@ -20,6 +20,7 @@ exports[`Calculator renders Calc component 1`] = `
       >
         <p
           className="display-2"
+          data-testid="btn-increment"
         >
           0
         </p>
@@ -57,6 +58,7 @@ exports[`Calculator renders Calc component 1`] = `
         </button>
         <button
           className="btn number"
+          data-testid="btn-7"
           onClick={[Function]}
           type="button"
         >

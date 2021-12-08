@@ -19,7 +19,10 @@ const Buttons = () => {
     <section className="calc">
       <div className="container">
         <div className="display">
-          <p className="display-2">
+          <p
+            className="display-2"
+            data-testid="btn-increment"
+          >
             {obj.total}
             {obj.operation}
             {obj.next}
@@ -57,6 +60,7 @@ const Buttons = () => {
           <button
             type="button"
             className="btn number"
+            data-testid="btn-7"
             onClick={() => pressedButton(obj, '7')}
           >
             7
