@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes renders quote component 1`] = `
+<section>
+  <p
+    className="quotes"
+  >
+    Pure mathematics is, in its way, the poetry of logical ideas. — Albert Einstein, German theoretical physicist
+  </p>
+</section>
+`;

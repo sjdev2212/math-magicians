@@ -1,6 +1,3 @@
-/* eslint-disable linebreak-style */
-
-/* eslint-disable linebreak-style */
 const Home = () => (
   <section>
     <div className="home">

@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import React, { useState } from 'react';
 import calculate from './logic/calculate';
 
@@ -20,7 +19,10 @@ const Buttons = () => {
     <section className="calc">
       <div className="container">
         <div className="display">
-          <p className="display-2">
+          <p
+            className="display-2"
+
+          >
             {obj.total}
             {obj.operation}
             {obj.next}
