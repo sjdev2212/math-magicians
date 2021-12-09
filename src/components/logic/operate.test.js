@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import operate from './operate';
 
 describe('it should return a string', () => {

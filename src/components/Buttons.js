@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import React, { useState } from 'react';
 import calculate from './logic/calculate';
 
@@ -22,7 +21,7 @@ const Buttons = () => {
         <div className="display">
           <p
             className="display-2"
-            data-testid="btn-increment"
+
           >
             {obj.total}
             {obj.operation}
@@ -61,7 +60,6 @@ const Buttons = () => {
           <button
             type="button"
             className="btn number"
-            data-testid="btn-7"
             onClick={() => pressedButton(obj, '7')}
           >
             7
