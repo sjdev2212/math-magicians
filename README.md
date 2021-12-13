@@ -6,6 +6,7 @@ In this project I created a Single Page Application using react.
 
 
 [Live Heroku link](https://math-magicians-sj1978.herokuapp.com)
+[Live Netlify link](https://modest-turing-5c0972.netlify.app)
 
 # Screenshot
 ![screenshot](/img/screenshot.png)
